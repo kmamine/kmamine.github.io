@@ -1,0 +1,46 @@
+---
+title: Mohamed Amine Kerkouri
+description: Research Scientist specializing in Computer Vision, Visual Attention, and Medical Imaging
+author:
+  name: Mohamed Amine Kerkouri
+  email: mohamed-amine.kerkouri@univ-orleans.fr
+  github: kmamine
+  linkedin: mohamed-amine-kerkouri
+  scholar: vpWieeAAAAAJ
+
+url: "https://kmamine.github.io"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
