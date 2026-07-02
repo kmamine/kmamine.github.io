@@ -44,3 +44,5 @@ exclude:
   - node_modules
   - vendor
   - .ipynb_checkpoints
+  - CLAUDE.md
+  - README.md
