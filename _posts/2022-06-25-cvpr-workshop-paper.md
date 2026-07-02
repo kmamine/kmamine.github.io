@@ -29,8 +29,13 @@ We developed a **self-supervised learning framework** that can learn to predict 
 - Domain-specific adaptations for artistic images
 - Evaluation on painting datasets showing strong results
 
+### The Code
+
+The implementation is open-sourced as **SSLArtScanpath**, a Barlow Twins–style self-supervised pipeline for learning scanpaths on paintings without labeled fixations.
+
 ## Links
 
 - [CVPR Open Access](https://openaccess.thecvf.com/content/CVPR2022W/Ego4D-EPIC/html/Tliba_Self_Supervised_Scanpath_Prediction_Framework_for_Painting_Images_CVPRW_2022_paper.html)
+- [Code — SSLArtScanpath](https://github.com/kmamine/SSLArtScanpath)
 
 This work was a collaboration with colleagues from multiple institutions, and I'm grateful for the opportunity to present at CVPR, one of the top computer vision conferences.

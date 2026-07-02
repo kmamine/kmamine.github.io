@@ -1,0 +1,120 @@
+# Open-source projects surfaced on the homepage and the Projects page.
+# `featured: true` items appear on the homepage preview.
+# `category` classifies the project on the Projects page (grouping + filter chips).
+#   One of: "Visual Attention & Eye Tracking" | "LLMs, NLP & Retrieval"
+#           | "Generative & Multimodal AI" | "MLOps & Tooling"
+# `tags` render as chips; `paper` optionally links to the related publication.
+
+- name: "SSLArtScanpath"
+  description: "Self-supervised scanpath prediction on paintings using a Barlow Twins objective — learning gaze dynamics without labeled fixations."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["Self-Supervised", "Visual Attention", "Scanpath", "PyTorch"]
+  language: "Python"
+  stars: 5
+  featured: true
+  repo: "https://github.com/kmamine/SSLArtScanpath"
+  paper: "Self-Supervised Scanpath Prediction Framework for Painting Images (CVPRW 2022)"
+
+- name: "FDISS"
+  description: "Foveal Disc-IoU Scanpath Score — a perceptually grounded metric for comparing predicted and human scanpaths."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["Metrics", "Visual Attention", "Scanpath", "Eye Tracking"]
+  language: "Python"
+  stars: 0
+  featured: true
+  repo: "https://github.com/kmamine/FDISS"
+  paper: "Closing the Foveal Gap: Perceptually Grounded Scanpath Comparison with Disc IoU (ETRA 2026)"
+
+- name: "Enlighten-AI"
+  description: "A retrieval-augmented life-coaching assistant built on curated Dr. K (HealthyGamer) transcripts."
+  category: "LLMs, NLP & Retrieval"
+  tags: ["RAG", "LLM", "GenAI", "Retrieval"]
+  language: "Python"
+  stars: 0
+  featured: true
+  repo: "https://github.com/kmamine/Enlighten-AI"
+
+- name: "AVAtt"
+  description: "The Art Visual Attention dataset — eye-tracking data across diverse painting styles for saliency and scanpath research."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["Dataset", "Visual Attention", "Eye Tracking", "Paintings"]
+  language: "Python"
+  stars: 0
+  featured: true
+  repo: "https://github.com/kmamine/AVAtt"
+  paper: "AVAtt: Art Visual Attention Dataset for Diverse Painting Styles (ETRA 2024)"
+
+- name: "scanpath_nlp_metrics"
+  description: "Semantic scanpath similarity — comparing what viewers saw, not just where they looked, using VLMs and NLP metrics."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["VLM", "NLP", "Visual Attention", "Scanpath"]
+  language: "Python"
+  stars: 0
+  featured: true
+  repo: "https://github.com/kmamine/scanpath_nlp_metrics"
+  paper: "What They Saw, Not Just Where They Looked (ETRA 2026)"
+
+- name: "SP_Gen"
+  description: "Generative model for stochastic scanpath prediction on paintings via unsupervised domain adaptation."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["Generative", "Domain Adaptation", "Visual Attention", "Scanpath"]
+  language: "Python"
+  stars: 0
+  featured: true
+  repo: "https://github.com/kmamine/SP_Gen"
+  paper: "SPGen: Stochastic Scanpath Generation for Paintings (2026)"
+
+- name: "llm-tuning-lab"
+  description: "Experiments and recipes for fine-tuning small language models."
+  category: "LLMs, NLP & Retrieval"
+  tags: ["LLM", "Fine-Tuning", "NLP", "Small LMs"]
+  language: "Python"
+  stars: 0
+  featured: false
+  repo: "https://github.com/kmamine/llm-tuning-lab"
+
+- name: "HeReFaNMi"
+  description: "Health-Related Fake News Mitigation — a production platform for detecting and countering medical misinformation with hybrid RAG."
+  category: "LLMs, NLP & Retrieval"
+  tags: ["NLP", "Retrieval", "Health", "Misinformation"]
+  language: "Python"
+  stars: 0
+  featured: false
+  repo: "https://github.com/kmamine/HeReFaNMi"
+
+- name: "APEX"
+  description: "An agentic image-editing system with MLLM orchestration and identity-preservation gating, driven by natural-language instructions."
+  category: "Generative & Multimodal AI"
+  tags: ["AI Agents", "GenAI", "Image Editing", "MLLM"]
+  language: "Python"
+  stars: 0
+  featured: false
+  repo: "https://github.com/kmamine/APEX"
+
+- name: "JLSCOM Garment LoRA"
+  description: "A LoRA adapter for FLUX.1-schnell that generates flat-lay garment product photography from detailed text prompts, in a minimalist contemporary fashion aesthetic. Trigger word: JLSCOM."
+  category: "Generative & Multimodal AI"
+  tags: ["Text-to-Image", "Diffusion", "LoRA", "FLUX"]
+  language: "Diffusers"
+  stars: 0
+  featured: false
+  repo: "https://huggingface.co/Amine-CV/JLSCOM_garment_LoRA_flux_schnell_v1"
+
+- name: "MAE-EyeTracking-Evaluation"
+  description: "Perceptual evaluation of masked-autoencoder emergent properties through an eye-tracking-based policy."
+  category: "Visual Attention & Eye Tracking"
+  tags: ["Eye Tracking", "Self-Supervised", "Evaluation", "Masked Autoencoder"]
+  language: "Jupyter"
+  stars: 1
+  featured: false
+  repo: "https://github.com/kmamine/MAE-EyeTracking-Evaluation"
+  paper: "Perceptual Evaluation of Masked AutoEncoder Emergent Properties (ETRA 2024)"
+
+- name: "mlflow_pytorch_exp"
+  description: "A boilerplate generator for MLflow + PyTorch experiment tracking, so new projects start reproducible."
+  category: "MLOps & Tooling"
+  tags: ["MLOps", "PyTorch", "Tooling", "Reproducibility"]
+  language: "Python"
+  stars: 1
+  featured: false
+  repo: "https://github.com/kmamine/mlflow_pytorch_exp"

@@ -1,178 +1,221 @@
 ---
 layout: default
 title: Home
+description: "Mohamed Amine Kerkouri — Research Scientist in computer vision, visual attention, medical imaging, and LLM agents."
 ---
 
+<!-- ============================ Hero ============================ -->
 <section class="hero">
     <div class="hero-container">
-        <div class="hero-content">
-            <span class="hero-badge">Research Scientist</span>
-            <h1 class="hero-title">Mohamed Amine<br>Kerkouri</h1>
-            <p class="hero-subtitle">PhD in Computer Vision | AI Research</p>
+        <div class="hero-content reveal">
+            <span class="eyebrow hero-eyebrow">Research Scientist · PhD in Computer Vision</span>
+            <h1 class="hero-name">Mohamed Amine<br>Kerkouri</h1>
+            <p class="hero-role">
+                Computer Vision <span class="sep">/</span> Visual Attention <span class="sep">/</span> LLM Agents
+            </p>
             <p class="hero-description">
-                Research Scientist at F-Initiatives and AIOps Architect at neophi.ai. 
-                Focused on computer vision, NLP, AI agents, and AI for science.
-                Open to collaborating on interesting projects.
+                I build practical AI systems that connect academic research with the real world —
+                from modeling human visual attention and medical imaging to retrieval-augmented
+                LLM agents. Currently Research Scientist at F-Initiatives and AIOps Architect at neophi.ai.
             </p>
             <div class="hero-cta">
-                <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">View Publications</a>
-                <a href="https://www.linkedin.com/in/mohamed-amine-kerkouri/" target="_blank" class="btn btn-secondary">Connect on LinkedIn</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">160+</span>
-                    <span class="stat-label">Citations</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">20+</span>
-                    <span class="stat-label">Publications</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">8</span>
-                    <span class="stat-label">H-Index</span>
-                </div>
+                <a href="{{ '/publications/' | relative_url }}" class="btn btn-primary">
+                    View Publications
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+                <a href="https://scholar.google.com/citations?user=vpWieeAAAAAJ" target="_blank" rel="noopener" class="btn btn-secondary">Google Scholar</a>
+                <a href="https://github.com/kmamine" target="_blank" rel="noopener" class="btn btn-ghost">
+                    GitHub <span class="arrow">↗</span>
+                </a>
             </div>
         </div>
-        <div class="hero-image">
+        <div class="hero-portrait reveal">
             <img src="{{ '/assets/images/mohamed-amine-kerkouri.jpg' | relative_url }}" alt="Mohamed Amine Kerkouri" class="hero-photo">
         </div>
     </div>
-</section>
 
-<section class="section research-areas">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Current Interests</h2>
-            <p class="section-subtitle">Areas I'm actively exploring and researching</p>
-        </div>
-        <div class="areas-grid">
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                        <circle cx="8.5" cy="8.5" r="1.5"/>
-                        <polyline points="21 15 16 10 5 21"/>
-                    </svg>
-                </div>
-                <h3>Computer Vision</h3>
-                <p>Visual perception, image understanding, and deep learning for visual tasks.</p>
+    <div class="container" style="margin-top: 3.5rem;">
+        <div class="metrics reveal">
+            <div class="metric">
+                <span class="metric-num">197</span>
+                <span class="metric-label">Citations</span>
             </div>
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
-                    </svg>
-                </div>
-                <h3>NLP & Small Language Models</h3>
-                <p>Natural language processing applications and efficient small language models.</p>
+            <div class="metric">
+                <span class="metric-num">8</span>
+                <span class="metric-label">h-index</span>
             </div>
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="3"/>
-                        <path d="M12 2v4m0 12v4M2 12h4m12 0h4"/>
-                        <path d="M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
-                    </svg>
-                </div>
-                <h3>AI Agents</h3>
-                <p>Building autonomous AI agents and designing agentic workflows for complex tasks.</p>
+            <div class="metric">
+                <span class="metric-num">7</span>
+                <span class="metric-label">i10-index</span>
             </div>
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4"/>
-                    </svg>
-                </div>
-                <h3>AI for Science</h3>
-                <p>Applying AI to accelerate scientific discovery and research.</p>
+            <div class="metric">
+                <span class="metric-num">{{ site.data.publications | size }}<span class="plus">+</span></span>
+                <span class="metric-label">Publications</span>
             </div>
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                    </svg>
-                </div>
-                <h3>Medical Imaging</h3>
-                <p>Deep learning for medical image analysis, diagnosis automation, and quality assessment.</p>
-            </div>
-            <div class="area-card">
-                <div class="area-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <circle cx="12" cy="12" r="4"/>
-                        <line x1="21.17" y1="8" x2="12" y2="8"/>
-                        <line x1="3.95" y1="6.06" x2="8.54" y2="14"/>
-                        <line x1="10.88" y1="21.94" x2="15.46" y2="14"/>
-                    </svg>
-                </div>
-                <h3>Visual Attention & Quality</h3>
-                <p>Human visual attention modeling and perceptual quality assessment.</p>
+            <div class="metric" style="margin-left:auto; align-self:center;">
+                <span class="metric-source">Source: <a href="https://scholar.google.com/citations?user=vpWieeAAAAAJ" target="_blank" rel="noopener">Google Scholar</a></span>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section publications-preview">
+<!-- ============================ News ============================ -->
+<section class="section section--alt">
     <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Recent Publications</h2>
-            <p class="section-subtitle">Selected papers from conferences and journals</p>
+        <div class="section-head reveal">
+            <span class="eyebrow">Recent</span>
+            <h2 class="section-title">News &amp; highlights</h2>
         </div>
-        <div class="publications-list">
-            <div class="pub-item">
-                <div class="pub-year">2025</div>
-                <div class="pub-content">
-                    <h3 class="pub-title">Morphology-Aware KOA Classification: Integrating Graph Priors with Vision Models</h3>
-                    <p class="pub-authors">M. Tliba, <strong>M.A. Kerkouri</strong>, Y. Nasser, N. Aburaed, A. Chetouani, U. Bagci, et al.</p>
-                    <p class="pub-venue">arXiv preprint arXiv:2510.21801</p>
-                </div>
+        <div class="news-list reveal">
+            {% for item in site.data.news %}
+            <div class="news-item">
+                <span class="news-date">{{ item.date }}</span>
+                <p class="news-text">
+                    {% if item.link %}{% if item.link contains 'http' %}<a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.text }}</a>{% else %}<a href="{{ item.link | relative_url }}">{{ item.text }}</a>{% endif %}{% else %}{{ item.text }}{% endif %}
+                </p>
             </div>
-            <div class="pub-item">
-                <div class="pub-year">2024</div>
-                <div class="pub-content">
-                    <h3 class="pub-title">Quantization Effects on Neural Networks Perception: How would quantization change the perceptual field of vision models?</h3>
-                    <p class="pub-authors"><strong>M.A. Kerkouri</strong>, M. Tliba, A. Chetouani, A. Bruno</p>
-                    <p class="pub-venue">arXiv:2403.09939</p>
-                </div>
-            </div>
-            <div class="pub-item">
-                <div class="pub-year">2023</div>
-                <div class="pub-content">
-                    <h3 class="pub-title">Automatic diagnosis of knee osteoarthritis severity using Swin transformer</h3>
-                    <p class="pub-authors">A. Sekhri, <strong>M.A. Kerkouri</strong>, A. Chetouani, M. Tliba, Y. Nasser, R. Jennane, et al.</p>
-                    <p class="pub-venue">CBMI 2023</p>
-                    <div class="pub-links">
-                        <a href="https://doi.org/10.1145/3549555.3549597" class="pub-link" target="_blank">DOI</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="view-all">
-            <a href="{{ '/publications/' | relative_url }}" class="btn btn-secondary">View All Publications</a>
+            {% endfor %}
         </div>
     </div>
 </section>
 
-<section class="section blog-preview">
+<!-- ======================= Selected work ======================= -->
+<section class="section">
     <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Latest from the Blog</h2>
-            <p class="section-subtitle">Thoughts on research, AI, and technology</p>
+        <div class="section-head reveal">
+            <span class="eyebrow">Selected work</span>
+            <h2 class="section-title">Research that defines my path</h2>
+            <p class="section-subtitle">A few papers that best represent my contributions across attention, medical imaging, and language models.</p>
         </div>
-        <div class="posts-grid">
-            {% for post in site.posts limit:3 %}
-            <article class="post-card">
-                <div class="post-card-image" style="background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);"></div>
-                <div class="post-card-content">
-                    <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
-                    <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                    <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+
+        {% assign featured = site.data.publications | where: "featured", true | sort: "citations" | reverse %}
+        <div class="card-grid grid-2 reveal">
+            {% for pub in featured limit: 4 %}
+            {% assign L = pub.links %}
+            {% assign ext = false %}
+            {% if L.arxiv %}{% assign href = L.arxiv %}{% assign ext = true %}
+            {% elsif L.doi %}{% assign href = L.doi %}{% assign ext = true %}
+            {% elsif L.ieee %}{% assign href = L.ieee %}{% assign ext = true %}
+            {% elsif L.pdf %}{% assign href = L.pdf %}{% assign ext = true %}
+            {% elsif L.code %}{% assign href = L.code %}{% assign ext = true %}
+            {% else %}{% assign href = "/publications/" | relative_url %}{% endif %}
+            <article class="card work-card">
+                <span class="work-topic">{{ pub.topics | first }}</span>
+                <h3 class="work-title">
+                    {% if ext %}<a href="{{ href }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}<a href="{{ href }}">{{ pub.title }}</a>{% endif %}
+                </h3>
+                <p class="pub-authors">{{ pub.authors | replace: "M.A. Kerkouri", "<strong>M.A. Kerkouri</strong>" }}</p>
+                <div class="work-meta">
+                    <span class="venue-name">{{ pub.venue }}</span>, {{ pub.year }}
+                    {% if pub.citations > 0 %} · <span class="cites">{{ pub.citations }} citations</span>{% endif %}
                 </div>
             </article>
             {% endfor %}
         </div>
-        <div class="view-all">
-            <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">View All Posts</a>
+        <div class="section-foot">
+            <a href="{{ '/publications/' | relative_url }}" class="btn btn-ghost">Browse all {{ site.data.publications | size }} publications <span class="arrow">→</span></a>
         </div>
     </div>
 </section>
+
+<!-- ======================= Research areas ======================= -->
+<section class="section section--alt">
+    <div class="container">
+        <div class="section-head center reveal">
+            <span class="eyebrow">Focus areas</span>
+            <h2 class="section-title">What I work on</h2>
+        </div>
+        <div class="card-grid grid-3 reveal">
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+                <h3>Computer Vision</h3>
+                <p>Deep learning for visual understanding, saliency, and image analysis.</p>
+            </div>
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 5V3m0 18v-2M5 12H3m18 0h-2"/><path d="M7.05 7.05 5.64 5.64m12.72 12.72-1.41-1.41M7.05 16.95l-1.41 1.41M18.36 5.64l-1.41 1.41"/></svg></div>
+                <h3>Visual Attention</h3>
+                <p>Modeling human gaze — saliency and scanpath prediction for images and art.</p>
+            </div>
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+                <h3>Medical Imaging</h3>
+                <p>Diagnosis automation and quality assessment, e.g. knee osteoarthritis grading.</p>
+            </div>
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+                <h3>LLMs &amp; NLP</h3>
+                <p>Hallucination analysis, small language models, and multimodal reasoning.</p>
+            </div>
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3m6-3v3M9 20v3m6-3v3M1 9h3m-3 6h3m16-6h3m-3 6h3"/></svg></div>
+                <h3>AI Agents</h3>
+                <p>Retrieval-augmented, tool-using agents and agentic workflows for real tasks.</p>
+            </div>
+            <div class="card area-card">
+                <div class="area-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/><path d="M9 21h6M10 17v4m4-4v4"/></svg></div>
+                <h3>AI for Science</h3>
+                <p>Applying AI to accelerate scientific discovery, analysis, and evaluation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================= Open source ======================= -->
+<section class="section">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Open source</span>
+            <h2 class="section-title">Code &amp; datasets</h2>
+            <p class="section-subtitle">Reproducible research and tooling, released on GitHub.</p>
+        </div>
+        {% assign fprojects = site.data.projects | where: "featured", true %}
+        <div class="card-grid grid-3 reveal">
+            {% for project in fprojects limit: 3 %}
+            <article class="card project-card">
+                <div class="project-top">
+                    <span class="project-name">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        {{ project.name }}
+                    </span>
+                    {% if project.stars > 0 %}<span class="project-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>{{ project.stars }}</span>{% endif %}
+                </div>
+                <p class="project-desc">{{ project.description }}</p>
+                <div class="project-tags">
+                    <span class="tag lang">{{ project.language }}</span>
+                    {% for tag in project.tags limit: 2 %}<span class="tag">{{ tag }}</span>{% endfor %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="section-foot">
+            <a href="{{ '/projects/' | relative_url }}" class="btn btn-ghost">Explore all projects <span class="arrow">→</span></a>
+        </div>
+    </div>
+</section>
+
+<!-- ======================= Blog ======================= -->
+{% if site.posts.size > 0 %}
+<section class="section section--alt">
+    <div class="container">
+        <div class="section-head reveal">
+            <span class="eyebrow">Writing</span>
+            <h2 class="section-title">From the blog</h2>
+        </div>
+        <div class="card-grid grid-3 reveal">
+            {% for post in site.posts limit: 3 %}
+            <article class="post-card">
+                <div class="post-card-band"></div>
+                <div class="post-card-body">
+                    <span class="post-card-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                    <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        <div class="section-foot">
+            <a href="{{ '/blog/' | relative_url }}" class="btn btn-ghost">Read all posts <span class="arrow">→</span></a>
+        </div>
+    </div>
+</section>
+{% endif %}

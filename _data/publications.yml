@@ -1,0 +1,260 @@
+# Master publication list. Powers the homepage "Selected work" section and the
+# Publications page (grouping, topic filters, and client-side BibTeX generation).
+#
+# Fields:
+#   title, authors, venue, year        - required. `authors` uses "M.A. Kerkouri" for self.
+#   type                               - journal | conference | workshop | preprint | challenge
+#   topics                             - subset of the filter taxonomy (see publications.html)
+#   citations                          - Google Scholar count (update periodically)
+#   featured                           - true => shown in the homepage "Selected work" section
+#   links                              - any of: arxiv, doi, ieee, pdf, code, project
+
+- title: "ThinkProbe: Beyond Accuracy — Structural Profiling of Open-Ended LLM Reasoning Traces via Non-Generative Thought Graphs"
+  authors: "M.A. Kerkouri, S.D. Hernandez, M. Tliba, Y. Dauxais, M. Ben-Fares, P. Holat"
+  venue: "arXiv preprint arXiv:2606.29067 (under review, EMNLP 2026)"
+  year: 2026
+  type: preprint
+  topics: ["LLM & NLP"]
+  citations: 0
+  featured: true
+  links:
+    arxiv: "https://arxiv.org/abs/2606.29067"
+
+- title: "What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP Metrics"
+  authors: "M. Tliba, M.A. Kerkouri, B. Wang, A. Chetouani, U. Bagci, A. Bruno"
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2026
+  type: conference
+  topics: ["Visual Attention", "LLM & NLP"]
+  citations: 0
+  featured: false
+  links:
+    code: "https://github.com/kmamine/scanpath_nlp_metrics"
+
+- title: "Closing the Foveal Gap: Perceptually Grounded Scanpath Comparison with Disc IoU"
+  authors: "M. Tliba, M.A. Kerkouri, Z. Sellam, C. Distante, A. Bruno, A. Chetouani"
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2026
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 0
+  featured: false
+  links:
+    code: "https://github.com/kmamine/FDISS"
+
+- title: "SPGen: Stochastic Scanpath Generation for Paintings using Unsupervised Domain Adaptation"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, A. Bruno"
+  venue: "arXiv preprint"
+  year: 2026
+  type: preprint
+  topics: ["Visual Attention"]
+  citations: 2
+  featured: false
+  links:
+    code: "https://github.com/kmamine/SP_Gen"
+
+- title: "Modeling Beyond MOS: Quality Assessment Models Must Integrate Context, Reasoning, and Multimodality"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, N. Aburaed, A. Bruno"
+  venue: "arXiv preprint arXiv:2505.19696"
+  year: 2025
+  type: preprint
+  topics: ["Quality & Perception", "LLM & NLP"]
+  citations: 3
+  featured: true
+  links:
+    arxiv: "https://arxiv.org/abs/2505.19696"
+
+- title: "Morphology-Aware KOA Classification: Integrating Graph Priors with Vision Models"
+  authors: "M. Tliba, M.A. Kerkouri, Y. Nasser, N. Aburaed, A. Chetouani, U. Bagci, et al."
+  venue: "arXiv preprint arXiv:2510.21801"
+  year: 2025
+  type: preprint
+  topics: ["Medical Imaging"]
+  citations: 0
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2510.21801"
+
+- title: "A Graph-Driven Approach to Knee Osteoarthritis Severity Classification"
+  authors: "M. Tliba, Y. Nasser, M.A. Kerkouri, A. Chetouani, R. Jennane"
+  venue: "European Signal Processing Conference (EUSIPCO)"
+  year: 2025
+  type: conference
+  topics: ["Medical Imaging"]
+  citations: 0
+  featured: false
+  links: {}
+
+- title: "Shifts in Doctors' Eye Movements Between Real and AI-Generated Medical Images"
+  authors: "D.C. Wong, B. Wang, G. Durak, M. Tliba, M.A. Kerkouri, A. Chetouani, A.E. Cetin, et al."
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2025
+  type: conference
+  topics: ["Eye Tracking", "Medical Imaging"]
+  citations: 2
+  featured: false
+  links: {}
+
+- title: "Quantization Effects on Neural Networks Perception: How Would Quantization Change the Perceptual Field of Vision Models?"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, A. Bruno"
+  venue: "Int. Conf. on Image Processing Theory, Tools and Applications (IPTA)"
+  year: 2024
+  type: conference
+  topics: ["Quality & Perception"]
+  citations: 4
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2403.09939"
+
+- title: "Shifting Focus: From Global Semantics to Local Prominent Features in Swin-Transformer for Knee Osteoarthritis Severity Assessment"
+  authors: "A. Sekhri, M. Tliba, M.A. Kerkouri, Y. Nasser, A. Chetouani, A. Bruno, et al."
+  venue: "European Signal Processing Conference (EUSIPCO)"
+  year: 2024
+  type: conference
+  topics: ["Medical Imaging"]
+  citations: 7
+  featured: false
+  links:
+    ieee: "https://ieeexplore.ieee.org/document/10716117"
+
+- title: "Perceptual Evaluation of Masked AutoEncoder Emergent Properties Through Eye-Tracking-Based Policy"
+  authors: "M. Tliba, M.A. Kerkouri, A. Chetouani, A. Bruno, M. El Hassouni, A. Çöltekin"
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2024
+  type: conference
+  topics: ["Eye Tracking", "Visual Attention"]
+  citations: 0
+  featured: false
+  links:
+    code: "https://github.com/kmamine/MAE-EyeTracking-Evaluation"
+
+- title: "AVAtt: Art Visual Attention Dataset for Diverse Painting Styles"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, A. Bruno"
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2024
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 2
+  featured: false
+  links:
+    code: "https://github.com/kmamine/AVAtt"
+
+- title: "Insights into Classifying and Mitigating LLMs' Hallucinations"
+  authors: "A. Bruno, P.L. Mazzeo, A. Chetouani, M. Tliba, M.A. Kerkouri"
+  venue: "arXiv preprint arXiv:2311.08117"
+  year: 2023
+  type: preprint
+  topics: ["LLM & NLP"]
+  citations: 44
+  featured: true
+  links:
+    arxiv: "https://arxiv.org/abs/2311.08117"
+
+- title: "Automatic Diagnosis of Knee Osteoarthritis Severity Using Swin Transformer"
+  authors: "A. Sekhri, M.A. Kerkouri, A. Chetouani, M. Tliba, Y. Nasser, R. Jennane, et al."
+  venue: "Int. Conf. on Content-Based Multimedia Indexing (CBMI)"
+  year: 2023
+  type: conference
+  topics: ["Medical Imaging"]
+  citations: 20
+  featured: true
+  links:
+    doi: "https://doi.org/10.1145/3549555.3549597"
+
+- title: "Detecting Colour Vision Deficiencies via Webcam-Based Eye-Tracking: A Case Study"
+  authors: "A. Bruno, M. Tliba, M.A. Kerkouri, A. Chetouani, C.C. Giunta, A. Çöltekin"
+  venue: "ACM Symposium on Eye Tracking Research & Applications (ETRA)"
+  year: 2023
+  type: conference
+  topics: ["Eye Tracking"]
+  citations: 6
+  featured: false
+  links: {}
+
+- title: "ICIP 2023 Point Cloud Visual Quality Assessment Grand Challenge"
+  authors: "A. Chetouani, G. Valenzise, A. Ak, E. Zerman, M. Quach, M. Tliba, M.A. Kerkouri, et al."
+  venue: "IEEE Int. Conf. on Image Processing (ICIP)"
+  year: 2023
+  type: challenge
+  topics: ["Quality & Perception"]
+  citations: 8
+  featured: false
+  links: {}
+
+- title: "SATSal: A Multi-Level Self-Attention Based Architecture for Visual Saliency Prediction"
+  authors: "M. Tliba, M.A. Kerkouri, B. Ghariba, A. Chetouani, A. Çöltekin, M.S. Shehata, et al."
+  venue: "IEEE Access, vol. 10, pp. 20701–20713"
+  year: 2022
+  type: journal
+  topics: ["Visual Attention"]
+  citations: 34
+  featured: true
+  links:
+    ieee: "https://ieeexplore.ieee.org/document/9715053"
+
+- title: "Deep-Based Quality Assessment of Medical Images Through Domain Adaptation"
+  authors: "M. Tliba, A. Sekhri, M.A. Kerkouri, A. Chetouani"
+  venue: "IEEE Int. Conf. on Image Processing (ICIP)"
+  year: 2022
+  type: conference
+  topics: ["Medical Imaging", "Quality & Perception"]
+  citations: 12
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2210.10533"
+
+- title: "A Domain Adaptive Deep Learning Solution for Scanpath Prediction of Paintings"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, A. Bruno"
+  venue: "Int. Conf. on Content-Based Multimedia Indexing (CBMI)"
+  year: 2022
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 10
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2209.11338"
+
+- title: "Self-Supervised Scanpath Prediction Framework for Painting Images"
+  authors: "M. Tliba, M.A. Kerkouri, A. Chetouani, A. Bruno"
+  venue: "IEEE/CVF CVPR Workshops"
+  year: 2022
+  type: workshop
+  topics: ["Visual Attention"]
+  citations: 9
+  featured: false
+  links:
+    pdf: "https://openaccess.thecvf.com/content/CVPR2022W/Ego4D-EPIC/papers/Tliba_Self_Supervised_Scanpath_Prediction_Framework_for_Painting_Images_CVPRW_2022_paper.pdf"
+    code: "https://github.com/kmamine/SSLArtScanpath"
+
+- title: "SalyPath360: Saliency and Scanpath Prediction Framework for Omnidirectional Images"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, M. Sayeh"
+  venue: "Electronic Imaging, vol. 34(11), pp. 1–7"
+  year: 2022
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 12
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2201.00096"
+
+- title: "A Simple and Efficient Deep Scanpath Prediction"
+  authors: "M.A. Kerkouri, A. Chetouani"
+  venue: "Electronic Imaging, vol. 34(11), pp. 1–7"
+  year: 2022
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 4
+  featured: false
+  links:
+    arxiv: "https://arxiv.org/abs/2112.04610"
+
+- title: "SalyPath: A Deep-Based Architecture for Visual Attention Prediction"
+  authors: "M.A. Kerkouri, M. Tliba, A. Chetouani, R. Harba"
+  venue: "IEEE Int. Conf. on Image Processing (ICIP)"
+  year: 2021
+  type: conference
+  topics: ["Visual Attention"]
+  citations: 18
+  featured: true
+  links:
+    arxiv: "https://arxiv.org/abs/2107.00559"

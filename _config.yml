@@ -2,13 +2,13 @@ title: Mohamed Amine Kerkouri
 description: Research Scientist specializing in Computer Vision, Visual Attention, and Medical Imaging
 author:
   name: Mohamed Amine Kerkouri
-  email: mohamed-amine.kerkouri@univ-orleans.fr
   github: kmamine
   linkedin: mohamed-amine-kerkouri
   scholar: vpWieeAAAAAJ
 
 url: "https://kmamine.github.io"
 baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
 
 markdown: kramdown
 highlighter: rouge

@@ -1,0 +1,52 @@
+---
+layout: page
+title: Projects & Open Source
+subtitle: Reproducible research code, datasets, and tooling — most tied to a publication and released on GitHub.
+permalink: /projects/
+---
+
+<p class="prose" style="margin-bottom:2.5rem;">
+    A selection of my open-source work, grouped by area — from visual-attention modeling and
+    self-supervised learning to generative &amp; multimodal models, LLM/retrieval systems, and MLOps tooling.
+    Full list on <a href="https://github.com/kmamine" target="_blank" rel="noopener">GitHub</a>.
+</p>
+
+<div data-projects-root>
+
+    <div class="pub-filters reveal" style="margin-bottom:2.5rem;">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="visual attention &amp; eye tracking">Visual Attention &amp; Eye Tracking</button>
+        <button class="filter-chip" data-filter="llms, nlp &amp; retrieval">LLMs, NLP &amp; Retrieval</button>
+        <button class="filter-chip" data-filter="generative &amp; multimodal ai">Generative &amp; Multimodal AI</button>
+        <button class="filter-chip" data-filter="mlops &amp; tooling">MLOps &amp; Tooling</button>
+    </div>
+
+    {% assign cats = "Visual Attention & Eye Tracking|LLMs, NLP & Retrieval|Generative & Multimodal AI|MLOps & Tooling" | split: "|" %}
+    {% for cat in cats %}
+    <div class="project-group reveal" data-group="{{ cat | downcase }}">
+        <h2 class="pub-year-label">{{ cat }}</h2>
+        <div class="card-grid grid-3">
+            {% assign items = site.data.projects | where: "category", cat %}
+            {% for project in items %}
+            <article class="card project-card" data-category="{{ project.category | downcase }}">
+                <div class="project-top">
+                    <a class="project-name" href="{{ project.repo }}" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        {{ project.name }}
+                    </a>
+                    {% if project.stars > 0 %}<span class="project-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>{{ project.stars }}</span>{% endif %}
+                </div>
+                <p class="project-desc">{{ project.description }}</p>
+                {% if project.paper %}<p class="project-paper">↳ {{ project.paper }}</p>{% endif %}
+                <div class="project-tags">
+                    <span class="tag lang">{{ project.language }}</span>
+                    {% for tag in project.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+
+    <p class="pub-empty">No projects match this filter.</p>
+</div>

@@ -1,0 +1,30 @@
+# Reverse-chronological "news / highlights" feed shown on the homepage.
+# Keep the newest item first. `date` is free text (used only for display).
+# `link` is optional (internal path or external URL).
+
+- date: "Jun 2026"
+  text: "New first-author preprint — <strong>ThinkProbe</strong>: structural profiling of open-ended LLM reasoning traces via non-generative thought graphs (under review, EMNLP 2026)."
+  link: "https://arxiv.org/abs/2606.29067"
+
+- date: "2026"
+  text: "Two papers accepted at <strong>ETRA 2026</strong> — a perceptually grounded scanpath metric (Disc IoU) and semantic scanpath similarity via VLMs."
+  link: "/publications/"
+
+- date: "2025"
+  text: "New preprint: <strong>Modeling Beyond MOS</strong> — arguing quality assessment must integrate context, reasoning, and multimodality."
+  link: "https://arxiv.org/abs/2505.19696"
+
+- date: "2025"
+  text: "Work on knee-osteoarthritis grading and doctors' eye movements presented at <strong>EUSIPCO</strong> and <strong>ETRA 2025</strong>."
+  link: "/publications/"
+
+- date: "Mar 2024"
+  text: "Defended my <strong>PhD thesis</strong> at the University of Orléans (PRISME Laboratory) on modeling human visual attention for paintings and cultural heritage."
+  link: "/blog/"
+
+- date: "2024"
+  text: "Joined <strong>F-Initiatives</strong> as a Research Scientist and <strong>neophi.ai</strong> as an AIOps Architect."
+
+- date: "2022"
+  text: "<strong>SATSal</strong> published in <em>IEEE Access</em> — a multi-level self-attention architecture for visual saliency prediction."
+  link: "https://ieeexplore.ieee.org/document/9715053"
