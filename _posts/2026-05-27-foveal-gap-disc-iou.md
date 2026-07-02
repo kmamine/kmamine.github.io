@@ -18,6 +18,6 @@ The reference implementation is open-sourced as **FDISS**, so the metric can dro
 
 ## Links
 
-- [Code — FDISS](https://github.com/kmamine/FDISS)
+- [Code: FDISS](https://github.com/kmamine/FDISS)
 
 See the paper for the full methodology and results.

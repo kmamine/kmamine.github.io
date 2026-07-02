@@ -18,6 +18,6 @@ The code is released as **SP_Gen** for generating and experimenting with stochas
 
 ## Links
 
-- [Code — SP_Gen](https://github.com/kmamine/SP_Gen)
+- [Code: SP_Gen](https://github.com/kmamine/SP_Gen)
 
 See the paper for the full methodology and results.

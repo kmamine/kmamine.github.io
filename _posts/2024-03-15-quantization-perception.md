@@ -6,7 +6,7 @@ categories: [research, publications]
 tags: [quantization, perception, efficiency, computer-vision]
 ---
 
-Quantization is one of the most practical tools we have for shrinking vision models and running them on constrained hardware, but it is almost always judged by a single yardstick: task accuracy. In this work, presented at IPTA 2024, we ask a different question — how does quantization change what a model actually *perceives*?
+Quantization is one of the most practical tools we have for shrinking vision models and running them on constrained hardware, but it is almost always judged by a single yardstick: task accuracy. In this work, presented at IPTA 2024, we ask a different question: how does quantization change what a model actually *perceives*?
 
 Compressing weights and activations to lower precision inevitably alters a network's internal representations. Yet a model can preserve its top-line accuracy while quietly reorganizing where it looks and what it treats as salient. We wanted to characterize this shift in perceptual behavior rather than reduce the story to a single performance number.
 

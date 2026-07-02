@@ -6,7 +6,7 @@ categories: [projects, open-source]
 tags: [llm, fine-tuning, nlp]
 ---
 
-`llm-tuning-lab` is my personal lab for experimenting with the fine-tuning of small language models. It is meant for practitioners and researchers who want a place to collect working recipes, sanity-check ideas, and iterate quickly without committing to a heavyweight framework. Think of it as a notebook of experiments rather than a finished product — an experimental and evolving repository.
+`llm-tuning-lab` is my personal lab for experimenting with the fine-tuning of small language models. It is meant for practitioners and researchers who want a place to collect working recipes, sanity-check ideas, and iterate quickly without committing to a heavyweight framework. Think of it as a notebook of experiments rather than a finished product: an experimental and evolving repository.
 
 The goal is practical: gather reusable recipes and scripts for adapting compact models to specific tasks, so that lessons learned in one experiment carry over to the next. Because it is a living workspace, expect the contents to shift as I test new approaches and prune the ones that do not hold up.
 

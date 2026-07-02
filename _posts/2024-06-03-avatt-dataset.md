@@ -12,11 +12,11 @@ Most saliency and attention datasets are grounded in natural photographs, which 
 
 AVAtt provides eye-tracking-based attention measurements across a range of painting styles, giving researchers a resource to analyze how gaze behaves when style, composition, and artistic intent come into play. The emphasis on stylistic diversity is central to its value.
 
-We hope AVAtt encourages more work at the intersection of computational attention and the arts — from benchmarking saliency models on non-photographic content to studying scanpaths shaped by artistic form. This was joint work with M. Tliba, A. Chetouani, and A. Bruno.
+We hope AVAtt encourages more work at the intersection of computational attention and the arts: from benchmarking saliency models on non-photographic content to studying scanpaths shaped by artistic form. This was joint work with M. Tliba, A. Chetouani, and A. Bruno.
 
 The dataset and accompanying code are released openly as **AVAtt** for the community to build on.
 
 ## Links
-- [Code/Data — AVAtt](https://github.com/kmamine/AVAtt)
+- [Code/Data: AVAtt](https://github.com/kmamine/AVAtt)
 
 See the paper for the full methodology and results.

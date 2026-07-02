@@ -18,6 +18,6 @@ The similarity tools are open-sourced as **scanpath_nlp_metrics** so others can 
 
 ## Links
 
-- [Code — scanpath_nlp_metrics](https://github.com/kmamine/scanpath_nlp_metrics)
+- [Code: scanpath_nlp_metrics](https://github.com/kmamine/scanpath_nlp_metrics)
 
 See the paper for the full methodology and results.

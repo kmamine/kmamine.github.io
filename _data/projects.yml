@@ -6,7 +6,7 @@
 # `tags` render as chips; `paper` optionally links to the related publication.
 
 - name: "SSLArtScanpath"
-  description: "Self-supervised scanpath prediction on paintings using a Barlow Twins objective — learning gaze dynamics without labeled fixations."
+  description: "Self-supervised scanpath prediction on paintings using a Barlow Twins objective, learning gaze dynamics without labeled fixations."
   category: "Visual Attention & Eye Tracking"
   tags: ["Self-Supervised", "Visual Attention", "Scanpath", "PyTorch"]
   language: "Python"
@@ -16,7 +16,7 @@
   paper: "Self-Supervised Scanpath Prediction Framework for Painting Images (CVPRW 2022)"
 
 - name: "FDISS"
-  description: "Foveal Disc-IoU Scanpath Score — a perceptually grounded metric for comparing predicted and human scanpaths."
+  description: "Foveal Disc-IoU Scanpath Score: a perceptually grounded metric for comparing predicted and human scanpaths."
   category: "Visual Attention & Eye Tracking"
   tags: ["Metrics", "Visual Attention", "Scanpath", "Eye Tracking"]
   language: "Python"
@@ -35,7 +35,7 @@
   repo: "https://github.com/kmamine/Enlighten-AI"
 
 - name: "AVAtt"
-  description: "The Art Visual Attention dataset — eye-tracking data across diverse painting styles for saliency and scanpath research."
+  description: "The Art Visual Attention dataset: eye-tracking data across diverse painting styles for saliency and scanpath research."
   category: "Visual Attention & Eye Tracking"
   tags: ["Dataset", "Visual Attention", "Eye Tracking", "Paintings"]
   language: "Python"
@@ -45,7 +45,7 @@
   paper: "AVAtt: Art Visual Attention Dataset for Diverse Painting Styles (ETRA 2024)"
 
 - name: "scanpath_nlp_metrics"
-  description: "Semantic scanpath similarity — comparing what viewers saw, not just where they looked, using VLMs and NLP metrics."
+  description: "Semantic scanpath similarity, comparing what viewers saw, not just where they looked, using VLMs and NLP metrics."
   category: "Visual Attention & Eye Tracking"
   tags: ["VLM", "NLP", "Visual Attention", "Scanpath"]
   language: "Python"
@@ -74,7 +74,7 @@
   repo: "https://github.com/kmamine/llm-tuning-lab"
 
 - name: "HeReFaNMi"
-  description: "Health-Related Fake News Mitigation — a production platform for detecting and countering medical misinformation with hybrid RAG."
+  description: "Health-Related Fake News Mitigation: a production platform for detecting and countering medical misinformation with hybrid RAG."
   category: "LLMs, NLP & Retrieval"
   tags: ["NLP", "Retrieval", "Health", "Misinformation"]
   language: "Python"

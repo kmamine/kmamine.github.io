@@ -36,6 +36,6 @@ The implementation is open-sourced as **SSLArtScanpath**, a Barlow Twins–style
 ## Links
 
 - [CVPR Open Access](https://openaccess.thecvf.com/content/CVPR2022W/Ego4D-EPIC/html/Tliba_Self_Supervised_Scanpath_Prediction_Framework_for_Painting_Images_CVPRW_2022_paper.html)
-- [Code — SSLArtScanpath](https://github.com/kmamine/SSLArtScanpath)
+- [Code: SSLArtScanpath](https://github.com/kmamine/SSLArtScanpath)
 
 This work was a collaboration with colleagues from multiple institutions, and I'm grateful for the opportunity to present at CVPR, one of the top computer vision conferences.

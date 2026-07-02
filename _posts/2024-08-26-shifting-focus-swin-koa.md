@@ -6,7 +6,7 @@ categories: [research, publications]
 tags: [medical-imaging, knee-osteoarthritis, swin-transformer]
 ---
 
-Grading knee osteoarthritis (KOA) severity from radiographs is a diagnosis that hinges on small, localized cues — joint space narrowing, osteophytes, subtle bony changes — yet many transformer models are pulled toward global image semantics. In this EUSIPCO 2024 paper, we explore how to shift a Swin Transformer's focus from broad global context toward the locally prominent features that actually drive KOA grading.
+Grading knee osteoarthritis (KOA) severity from radiographs is a diagnosis that hinges on small, localized cues (joint space narrowing, osteophytes, subtle bony changes), yet many transformer models are pulled toward global image semantics. In this EUSIPCO 2024 paper, we explore how to shift a Swin Transformer's focus from broad global context toward the locally prominent features that actually drive KOA grading.
 
 The challenge is that severity assessment lives in fine detail. A model that reasons mainly about the overall appearance of a radiograph can miss the discriminative regions that separate one severity grade from the next, and these grades are often only marginally different from each other.
 

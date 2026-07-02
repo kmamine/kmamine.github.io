@@ -9,7 +9,7 @@
 #   featured                           - true => shown in the homepage "Selected work" section
 #   links                              - any of: arxiv, doi, ieee, pdf, code, project
 
-- title: "ThinkProbe: Beyond Accuracy — Structural Profiling of Open-Ended LLM Reasoning Traces via Non-Generative Thought Graphs"
+- title: "ThinkProbe: Beyond Accuracy, Structural Profiling of Open-Ended LLM Reasoning Traces via Non-Generative Thought Graphs"
   authors: "M.A. Kerkouri, S.D. Hernandez, M. Tliba, Y. Dauxais, M. Ben-Fares, P. Holat"
   venue: "arXiv preprint arXiv:2606.29067 (under review, EMNLP 2026)"
   year: 2026
