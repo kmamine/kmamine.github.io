@@ -1,7 +1,7 @@
 # Mohamed Amine Kerkouri - Personal Website
 
 Academic website and blog built with Jekyll for GitHub Pages.
-
+   
 ## About
 
 Research Scientist specializing in:
